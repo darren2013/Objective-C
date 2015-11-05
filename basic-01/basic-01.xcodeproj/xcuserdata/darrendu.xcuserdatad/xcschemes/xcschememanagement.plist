@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>41</integer>
 		</dict>
+		<key>advance-19-kvc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
 		<key>basic-01.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -403,6 +408,11 @@
 			<true/>
 		</dict>
 		<key>F5C0C6521BDE4B010049856F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5CCEFAE1BEC091E003581B5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

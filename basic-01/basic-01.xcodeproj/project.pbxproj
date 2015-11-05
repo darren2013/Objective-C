@@ -103,6 +103,9 @@
 		F5BB94481BCFF14D0077EB1C /* DDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB94471BCFF14D0077EB1C /* DDPerson.m */; };
 		F5C0C64E1BDE449D0049856F /* DDDog.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C0C64D1BDE449D0049856F /* DDDog.m */; };
 		F5C0C6561BDE4B010049856F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C0C6551BDE4B010049856F /* main.m */; };
+		F5CCEFB21BEC091E003581B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CCEFB11BEC091E003581B5 /* main.m */; };
+		F5CCEFB81BEC0949003581B5 /* DDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CCEFB71BEC0949003581B5 /* DDPerson.m */; };
+		F5CCEFBB1BEC0C93003581B5 /* DDBook.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CCEFBA1BEC0C93003581B5 /* DDBook.m */; };
 		F5D2C3FE1BDC6E06007FB816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2C3FD1BDC6E06007FB816 /* main.m */; };
 		F5D2C4091BDC9150007FB816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2C4081BDC9150007FB816 /* main.m */; };
 		F5D2C40F1BDC9177007FB816 /* DDDog.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D2C40E1BDC9177007FB816 /* DDDog.m */; };
@@ -453,6 +456,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F5CCEFAD1BEC091E003581B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F5D2C3F91BDC6E06007FB816 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -687,6 +699,12 @@
 		F5C0C64D1BDE449D0049856F /* DDDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDog.m; sourceTree = "<group>"; };
 		F5C0C6531BDE4B010049856F /* advance-18-copy2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "advance-18-copy2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C0C6551BDE4B010049856F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5CCEFAF1BEC091E003581B5 /* advance-19-kvc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "advance-19-kvc"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CCEFB11BEC091E003581B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5CCEFB61BEC0949003581B5 /* DDPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPerson.h; sourceTree = "<group>"; };
+		F5CCEFB71BEC0949003581B5 /* DDPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPerson.m; sourceTree = "<group>"; };
+		F5CCEFB91BEC0C93003581B5 /* DDBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBook.h; sourceTree = "<group>"; };
+		F5CCEFBA1BEC0C93003581B5 /* DDBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBook.m; sourceTree = "<group>"; };
 		F5D2C3FB1BDC6E06007FB816 /* advance-16-dictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "advance-16-dictionary"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D2C3FD1BDC6E06007FB816 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5D2C4061BDC9150007FB816 /* advance-16-collection-memory-management */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "advance-16-collection-memory-management"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -960,6 +978,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F5C0C6501BDE4B010049856F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CCEFAC1BEC091E003581B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1245,6 +1270,7 @@
 				F5D2C4151BDCB47D007FB816 /* advance-17-NSValue */,
 				F5D2C4201BDCC487007FB816 /* advance-17-copy */,
 				F5C0C6541BDE4B010049856F /* advance-18-copy2 */,
+				F5CCEFB01BEC091E003581B5 /* advance-19-kvc */,
 				F5BB93101BC94FA60077EB1C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1294,6 +1320,7 @@
 				F5D2C4141BDCB47C007FB816 /* advance-17-NSValue */,
 				F5D2C41F1BDCC486007FB816 /* advance-17-copy */,
 				F5C0C6531BDE4B010049856F /* advance-18-copy2 */,
+				F5CCEFAF1BEC091E003581B5 /* advance-19-kvc */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1515,6 +1542,18 @@
 				F5C0C6551BDE4B010049856F /* main.m */,
 			);
 			path = "advance-18-copy2";
+			sourceTree = "<group>";
+		};
+		F5CCEFB01BEC091E003581B5 /* advance-19-kvc */ = {
+			isa = PBXGroup;
+			children = (
+				F5CCEFB11BEC091E003581B5 /* main.m */,
+				F5CCEFB61BEC0949003581B5 /* DDPerson.h */,
+				F5CCEFB71BEC0949003581B5 /* DDPerson.m */,
+				F5CCEFB91BEC0C93003581B5 /* DDBook.h */,
+				F5CCEFBA1BEC0C93003581B5 /* DDBook.m */,
+			);
+			path = "advance-19-kvc";
 			sourceTree = "<group>";
 		};
 		F5D2C3FC1BDC6E06007FB816 /* advance-16-dictionary */ = {
@@ -2202,6 +2241,23 @@
 			productReference = F5C0C6531BDE4B010049856F /* advance-18-copy2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		F5CCEFAE1BEC091E003581B5 /* advance-19-kvc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CCEFB51BEC091E003581B5 /* Build configuration list for PBXNativeTarget "advance-19-kvc" */;
+			buildPhases = (
+				F5CCEFAB1BEC091E003581B5 /* Sources */,
+				F5CCEFAC1BEC091E003581B5 /* Frameworks */,
+				F5CCEFAD1BEC091E003581B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "advance-19-kvc";
+			productName = "advance-19-kvc";
+			productReference = F5CCEFAF1BEC091E003581B5 /* advance-19-kvc */;
+			productType = "com.apple.product-type.tool";
+		};
 		F5D2C3FA1BDC6E06007FB816 /* advance-16-dictionary */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5D2C4011BDC6E06007FB816 /* Build configuration list for PBXNativeTarget "advance-16-dictionary" */;
@@ -2393,6 +2449,9 @@
 					F5C0C6521BDE4B010049856F = {
 						CreatedOnToolsVersion = 7.1;
 					};
+					F5CCEFAE1BEC091E003581B5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
 					F5D2C3FA1BDC6E06007FB816 = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -2461,6 +2520,7 @@
 				F5D2C4131BDCB47C007FB816 /* advance-17-NSValue */,
 				F5D2C41E1BDCC486007FB816 /* advance-17-copy */,
 				F5C0C6521BDE4B010049856F /* advance-18-copy2 */,
+				F5CCEFAE1BEC091E003581B5 /* advance-19-kvc */,
 			);
 		};
 /* End PBXProject section */
@@ -2824,6 +2884,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C0C6561BDE4B010049856F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CCEFAB1BEC091E003581B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CCEFBB1BEC0C93003581B5 /* DDBook.m in Sources */,
+				F5CCEFB81BEC0949003581B5 /* DDPerson.m in Sources */,
+				F5CCEFB21BEC091E003581B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3489,6 +3559,20 @@
 			};
 			name = Release;
 		};
+		F5CCEFB31BEC091E003581B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5CCEFB41BEC091E003581B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F5D2C3FF1BDC6E06007FB816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3897,6 +3981,15 @@
 			buildConfigurations = (
 				F5C0C6581BDE4B010049856F /* Debug */,
 				F5C0C6591BDE4B010049856F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CCEFB51BEC091E003581B5 /* Build configuration list for PBXNativeTarget "advance-19-kvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CCEFB31BEC091E003581B5 /* Debug */,
+				F5CCEFB41BEC091E003581B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
